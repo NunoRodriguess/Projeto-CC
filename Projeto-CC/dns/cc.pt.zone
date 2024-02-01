@@ -1,0 +1,18 @@
+$TTL 1D
+@       IN      SOA     Servidor1.cc.pt. admin.cc.pt. (
+                        1 ; Serial
+                        1H         ; Refresh
+                        15M        ; Retry
+                        1W         ; Expire
+                        1D )       ; Minimum TTL
+
+        IN      NS      Servidor1.cc.pt. 
+
+Servidor1       IN      A       10.4.4.1 ;
+Servidor2       IN      A       10.4.4.2 ;
+Portatil1       IN      A        10.1.1.1 ;
+Portatil2       IN      A        10.1.1.2 ;
+PC1       IN      A        10.2.2.1 ;
+PC2       IN      A        10.2.2.2 ;
+Roma       IN      A        10.3.3.1 ;
+Paris       IN      A        10.3.3.2 ;

@@ -1,0 +1,30 @@
+Tipos de mensagens:
+       Get-file <<filename>> <<porta udp para receber>>
+       Regist-Node
+       Regist-SegFile <<seqNumber>> <<filename>>
+       Regist-FullFile <<filename>>
+
+
+
+Ter duas portas, cenário de clientes
+
+        ex  .cliente1 vai buscar file1 ao cliente2
+
+    Cliente1 pede a lista ao server
+
+    O server manda lista dos coisos com ficheiros com a socket udp de requisições de cada um
+
+    Algortimo do cliente 1 escolhe a melhor opção.
+
+    Cliente 1 cria uma socket udp para receber (em c++)
+
+    Cliente 1 envia pedido pela socket udp para o cliente2 (ou mais) (em c++)
+
+    Cliente 2 envia o segmento para a socket enviada por cliente1 (em c++)
+
+    Socket udp em python que recebe e envia pedidos de requesição
+
+    Socket udp em c++ ( dos dois lados) que recebe e envia ficheiro
+
+
+
